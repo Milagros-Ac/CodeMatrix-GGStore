@@ -1,0 +1,24 @@
+.titulo-us {
+    background-color: #FFB5C0;
+    color: black;
+}
+
+.jugadores {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.jugadores:hover {
+  transform: scale(1.1);
+  box-shadow: #fdfd96 0px 0px 15px;
+}
+
+@media (max-width: 767px) {
+  .team-member {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
