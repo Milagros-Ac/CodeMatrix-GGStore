@@ -1,0 +1,12 @@
+.team-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.team-img:hover {
+  transform: scale(1.1);
+  box-shadow: #fdfd96 0px 0px 15px;
+}
