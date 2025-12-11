@@ -1,9 +1,9 @@
-/* .titulo-us {
+.titulo-us {
     background-color: #FFB5C0;
     color: black;
-} */
+}
 
-.team-img {
+.jugadores {
   width: 400px;
   height: 400px;
   object-fit: cover;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.team-img:hover {
+.jugadores:hover {
   transform: scale(1.1);
   box-shadow: #fdfd96 0px 0px 15px;
 }
