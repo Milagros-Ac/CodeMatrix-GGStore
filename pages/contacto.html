@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de juegos digitales para PC con ofertas y lanzamientos.">
+    <meta name="keywords"
+        content="videojuegos, juegos digitales, comprar juegos, tienda de juegos, PC gaming, juegos online, plataforma de juegos">
+    <meta name="author" content="Milagros Acuña,Matias Salinas,Zanetti Luca,Guanca Ignacio">
+    <link rel="shortcut icon" href="../assets/img/GG-Portada.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>GG Store</title>
 </head>
+
 <body>
-    
+    <header class="bg">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/GG-Portada.png" alt="Portada GG Store" width="50" height="45" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/nosotros.html">ACERCA DE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">SOPORTE</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                COMUNIDAD
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.instagram.com/"
+                                        target="_blank">INSTAGRAM</a></li>
+                                <li><a class="dropdown-item" href="https://twitter.com/" target="_blank">X</a></li>
+                                <li><a class="dropdown-item" href="https://www.youtube.com/" target="_blank">YOUTUBE</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://discord.com/" target="_blank">DISCORD</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar en la tienda"
+                                    aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="../pages/login.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-person-circle me-3" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../pages/error404.html">
+                            <button class="btn btn-primary btn-text-black me-4" type="submit">Descargar</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="d-flex">
+        <main class="ms-5 me-5">
+            <h1 class="display-4 justify-content-center text-center mt-4 mb-3 ">
+                Consultanos
+            </h1>
+            <hr>
+            <div class="container mt-5 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ej: Matias" minlength="2"
+                            maxlength="25" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ej: Ramirez" minlength="2"
+                            maxlength="25" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com" minlength="2"
+                            maxlength="25" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu consulta aquí..."
+                            minlength="2" maxlength="250" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Borrar</button>
+                </form>
+            </div>
+            <h2 class="text-center mb-5">¡Gracias por contactarnos! Responderemos a la brevedad posible...
+        </main>
+        <hr>
+        <aside class="col-lg-3 ms-5 mt-5">
+            <h2 class="text-center mb-3">Próximamente estaremos en...</h2>
+            <div class="ratio ratio-4x3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d890.1245242126063!2d-65.20466683035326!3d-26.82410540174704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c179f974e09%3A0x7d8adf9ef4129d56!2sSantiago%20del%20Estero%20574%2C%20T4000DVL%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1765427701004!5m2!1ses-419!2sar"
+                    width="460" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-center">Santiado del Estero 578</p>
+        </aside>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
