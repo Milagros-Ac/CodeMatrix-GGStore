@@ -101,3 +101,27 @@
 .tarjeta-producto-gif:hover .gif-producto {
     opacity: 1;
 }
+
+.etiqueta-descuento,
+.etiqueta-oferta {
+    position: absolute;
+    z-index: 5;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.etiqueta-descuento {
+    top: 8px;
+    left: 8px;
+    background: #f87575;
+    color: #fff;
+}
+
+.etiqueta-oferta {
+    bottom: 8px;
+    left: 8px;
+    background: #f373d7;
+    color: #fff;
+}
