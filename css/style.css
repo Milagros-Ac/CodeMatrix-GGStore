@@ -224,3 +224,15 @@
     outline: 3px solid #fff;
     outline-offset: 2px;
 }
+
+@media (max-width: 767px) {
+    .card-media-contenido {
+        height: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-media-contenido {
+        height: 250px;
+    }
+}
