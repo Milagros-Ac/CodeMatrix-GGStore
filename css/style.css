@@ -179,3 +179,48 @@
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+.tarjeta-oferta .btn-primary {
+    background-color: #d56affd5;
+    border-color: #d56affd5;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-popular .btn-primary {
+    background-color: #6fc3fcc2;
+    border-color: #6fc3fcc2;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-novedad .btn-primary {
+    background-color: #76f3aabe;
+    border-color: #76f3aabe;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-oferta .btn-primary:hover {
+    background-color: #792a4f;
+    border-color: #792a4f;
+}
+
+.tarjeta-popular .btn-primary:hover {
+    background-color: #0085dd;
+    border-color: #0085dd;
+}
+
+.tarjeta-novedad .btn-primary:hover {
+    background-color: #2c7053;
+    border-color: #2c7053;
+}
+
+
+.btn-outline-light {
+    transition: all 0.3s ease;
+}
+
+
+.btn-primary:focus,
+.btn-outline-light:focus {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+}
