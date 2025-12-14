@@ -22,3 +22,12 @@
     margin-bottom: 20px;
   }
 }
+
+.mi-carrusel-chico .carousel-inner {
+    max-height: 880px; 
+}
+
+.mi-carrusel-chico img {
+    height: 880px; 
+    object-fit: cover; 
+}
