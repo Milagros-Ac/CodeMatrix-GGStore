@@ -31,3 +31,24 @@
     height: 880px; 
     object-fit: cover; 
 }
+
+@media (max-width: 767px) {
+    
+  .mi-carrusel-chico .carousel-inner {
+      max-height: 250px; 
+  }
+  .mi-carrusel-chico img {
+      height: 250px; 
+  }
+  .mi-carrusel-chico .carousel-caption {
+      bottom: 5px; 
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }  
+  .mi-carrusel-chico .carousel-caption h5 {
+      font-size: 0.9rem; 
+  }   
+  .mi-carrusel-chico .carousel-caption p {
+      display: none; 
+  }
+}
