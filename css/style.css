@@ -236,3 +236,106 @@
         height: 250px;
     }
 }
+.pie-pagina-ecommerce {
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+}
+
+.pie-pagina-ecommerce a {
+  color: #cccccc; 
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.pie-pagina-ecommerce a:hover {
+  color: #5999dd; 
+}
+
+.pie-pagina-ecommerce h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgb(182, 131, 250);
+}
+
+
+.columna-pie-identidad img {
+  max-width: 120px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.eslogan {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.iconos-sociales a {
+  margin-right: 10px; 
+}
+
+.iconos-sociales i {
+  color: #ffffff; 
+}
+
+.iconos-sociales a:hover i {
+  color: #e66cd5; 
+  transform: rotate(10deg) scale(1.2);
+}
+
+.separador-pie {
+  border: 0;
+  border-top: 1px solid #333333; 
+}
+
+.metodos-pago i {
+  font-size: 24px; 
+  margin: 0 5px; 
+  color: #aaaaaa;
+}
+
+.texto-derechos-autor {
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.7;
+}
+@media (max-width: 767px) {
+  .barra-inferior-pie {
+    text-align: center; 
+  }
+}
+.personajes-footer-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+footer.pie-pagina-ecommerce:hover .personajes-footer-hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.personajes-footer-hover img {
+    width: 55px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: transform .3s ease, filter .3s ease, opacity .3s ease, box-shadow .3s ease;
+}
+
+.personajes-footer-hover img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    opacity: 1;
+    box-shadow: 0 0 10px #f88af88a, 0 0 20px #f88af88a, 0 0 30px #f88af88a;
+}
+@keyframes flotar { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.personajes-footer-hover { animation: flotar 3s ease-in-out infinite; }
+.personajes-footer-hover { filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.4)); }
