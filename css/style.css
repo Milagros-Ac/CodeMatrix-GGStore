@@ -151,3 +151,31 @@
       0 0 180px rgba(3, 250, 114, 0.822);
   filter: drop-shadow(0 0 30px rgba(3, 250, 114, 0.4));
 }
+
+.card-body {
+    background: #2b2b2b;
+    color: #fff;
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.caja-precio {
+    margin-bottom: 12px;
+}
+
+.precio-anterior {
+    text-decoration: line-through;
+    color: #b5b5b5;
+    margin-right: 6px;
+}
+
+.precio-nuevo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
