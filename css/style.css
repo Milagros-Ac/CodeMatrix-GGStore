@@ -52,3 +52,52 @@
       display: none; 
   }
 }
+
+.tarjeta-producto-gif {
+    background: #2b2b2b;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #3a3a3a;
+    transition: transform .25s ease, box-shadow .25s ease;
+    position: relative;
+}
+
+
+.tarjeta-producto-gif:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+
+.card-media-contenido {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.card-media-contenido img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-producto {
+    opacity: 1;
+    transition: opacity .35s ease;
+}
+
+.gif-producto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+
+.tarjeta-producto-gif:hover .imagen-producto {
+    opacity: 0;
+}
+.tarjeta-producto-gif:hover .gif-producto {
+    opacity: 1;
+}
