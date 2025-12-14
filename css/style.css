@@ -125,3 +125,29 @@
     background: #f373d7;
     color: #fff;
 }
+
+.tarjeta-oferta:hover {
+  box-shadow: 
+      0 8px 40px rgba(255, 0, 242, 0.6),
+      0 0 80px rgba(255, 0, 242, 0.8),
+      0 0 120px rgba(255, 0, 242, 0.7),
+      0 0 180px rgba(255, 0, 242, 0.5);
+  filter: drop-shadow(0 0 30px rgba(255, 0, 242, 0.6));
+}
+
+.tarjeta-popular:hover {
+  box-shadow: 
+      0 8px 40px rgba(11, 14, 241, 0.918),
+      0 0 80px rgba(11, 14, 241, 0.6),
+      0 0 120px rgba(11, 14, 241, 0.4),
+      0 0 180px rgba(11, 14, 241, 0.918);
+  filter: drop-shadow(0 0 30px rgba(11, 14, 241, 0.6));
+}
+.tarjeta-novedad:hover {
+  box-shadow: 
+      0 8px 40px rgba(3, 250, 114, 0.822),
+      0 0 80px rgba(3, 250, 114, 0.6),
+      0 0 120px rgba(3, 250, 114, 0.4),
+      0 0 180px rgba(3, 250, 114, 0.822);
+  filter: drop-shadow(0 0 30px rgba(3, 250, 114, 0.4));
+}
