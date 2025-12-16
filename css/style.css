@@ -16,9 +16,342 @@
   box-shadow: #fdfd96 0px 0px 15px;
 }
 
+.img-404 {
+  width: 20px;
+  height: 30px;
+  padding-left: 500px;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
   .team-member {
     width: 150px;
     margin-bottom: 20px;
   }
+}
+.pie-pagina-ecommerce {
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+}
+
+.pie-pagina-ecommerce a {
+  color: #cccccc; 
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.pie-pagina-ecommerce a:hover {
+  color: #5999dd; 
+}
+
+.pie-pagina-ecommerce h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgb(182, 131, 250);
+}
+
+
+.columna-pie-identidad img {
+  max-width: 120px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.eslogan {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.iconos-sociales a {
+  margin-right: 10px; 
+}
+
+.iconos-sociales i {
+  color: #ffffff; 
+}
+
+.iconos-sociales a:hover i {
+  color: #e66cd5; 
+  transform: rotate(10deg) scale(1.2);
+}
+
+.separador-pie {
+  border: 0;
+  border-top: 1px solid #333333; 
+}
+
+.metodos-pago i {
+  font-size: 24px; 
+  margin: 0 5px; 
+  color: #aaaaaa;
+}
+
+.texto-derechos-autor {
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.7;
+}
+@media (max-width: 767px) {
+  .barra-inferior-pie {
+    text-align: center; 
+  }
+}
+.personajes-footer-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+footer.pie-pagina-ecommerce:hover .personajes-footer-hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.personajes-footer-hover img {
+    width: 55px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: transform .3s ease, filter .3s ease, opacity .3s ease, box-shadow .3s ease;
+}
+
+.personajes-footer-hover img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    opacity: 1;
+    box-shadow: 0 0 10px #f88af88a, 0 0 20px #f88af88a, 0 0 30px #f88af88a;
+}
+@keyframes flotar { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.personajes-footer-hover { animation: flotar 3s ease-in-out infinite; }
+.personajes-footer-hover { filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.4)); }
+
+.mi-carrusel-chico .carousel-inner {
+    max-height: 880px; 
+}
+
+.mi-carrusel-chico img {
+    height: 880px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 767px) {
+    
+  .mi-carrusel-chico .carousel-inner {
+      max-height: 250px; 
+  }
+  .mi-carrusel-chico img {
+      height: 250px; 
+  }
+  .mi-carrusel-chico .carousel-caption {
+      bottom: 5px; 
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }  
+  .mi-carrusel-chico .carousel-caption h5 {
+      font-size: 0.9rem; 
+  }   
+  .mi-carrusel-chico .carousel-caption p {
+      display: none; 
+  }
+}
+
+.tarjeta-producto-gif {
+    background: #2b2b2b;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #3a3a3a;
+    transition: transform .25s ease, box-shadow .25s ease;
+    position: relative;
+}
+
+
+.tarjeta-producto-gif:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+
+.card-media-contenido {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.card-media-contenido img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagen-producto {
+    opacity: 1;
+    transition: opacity .35s ease;
+}
+
+.gif-producto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+
+.tarjeta-producto-gif:hover .imagen-producto {
+    opacity: 0;
+}
+.tarjeta-producto-gif:hover .gif-producto {
+    opacity: 1;
+}
+
+.etiqueta-descuento,
+.etiqueta-oferta {
+    position: absolute;
+    z-index: 5;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.etiqueta-descuento {
+    top: 8px;
+    left: 8px;
+    background: #f87575;
+    color: #fff;
+}
+
+.etiqueta-oferta {
+    bottom: 8px;
+    left: 8px;
+    background: #f373d7;
+    color: #fff;
+}
+
+.tarjeta-oferta:hover {
+  box-shadow: 
+      0 8px 40px rgba(255, 0, 242, 0.6),
+      0 0 80px rgba(255, 0, 242, 0.8),
+      0 0 120px rgba(255, 0, 242, 0.7),
+      0 0 180px rgba(255, 0, 242, 0.5);
+  filter: drop-shadow(0 0 30px rgba(255, 0, 242, 0.6));
+}
+
+.tarjeta-popular:hover {
+  box-shadow: 
+      0 8px 40px rgba(11, 14, 241, 0.918),
+      0 0 80px rgba(11, 14, 241, 0.6),
+      0 0 120px rgba(11, 14, 241, 0.4),
+      0 0 180px rgba(11, 14, 241, 0.918);
+  filter: drop-shadow(0 0 30px rgba(11, 14, 241, 0.6));
+}
+.tarjeta-novedad:hover {
+  box-shadow: 
+      0 8px 40px rgba(3, 250, 114, 0.822),
+      0 0 80px rgba(3, 250, 114, 0.6),
+      0 0 120px rgba(3, 250, 114, 0.4),
+      0 0 180px rgba(3, 250, 114, 0.822);
+  filter: drop-shadow(0 0 30px rgba(3, 250, 114, 0.4));
+}
+
+.card-body {
+    background: #2b2b2b;
+    color: #fff;
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.caja-precio {
+    margin-bottom: 12px;
+}
+
+.precio-anterior {
+    text-decoration: line-through;
+    color: #b5b5b5;
+    margin-right: 6px;
+}
+
+.precio-nuevo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.tarjeta-oferta .btn-primary {
+    background-color: #d56affd5;
+    border-color: #d56affd5;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-popular .btn-primary {
+    background-color: #6fc3fcc2;
+    border-color: #6fc3fcc2;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-novedad .btn-primary {
+    background-color: #76f3aabe;
+    border-color: #76f3aabe;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-oferta .btn-primary:hover {
+    background-color: #792a4f;
+    border-color: #792a4f;
+}
+
+.tarjeta-popular .btn-primary:hover {
+    background-color: #0085dd;
+    border-color: #0085dd;
+}
+
+.tarjeta-novedad .btn-primary:hover {
+    background-color: #2c7053;
+    border-color: #2c7053;
+}
+
+
+.btn-outline-light {
+    transition: all 0.3s ease;
+}
+
+
+.btn-primary:focus,
+.btn-outline-light:focus {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+}
+
+.App-des {
+    background-color: rgb(216, 141, 154);
+    border-color: black;
+}
+
+.App-des:hover {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .card-media-contenido {
+        height: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-media-contenido {
+        height: 250px;
+    }
 }
