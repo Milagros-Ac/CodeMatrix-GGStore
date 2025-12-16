@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <header class="bg">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-p">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../assets/img/GG-Portada.png" alt="Portada GG Store" width="50" height="45" />
@@ -28,6 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="../pages/nosotros.html">ACERCA DE</a>
@@ -50,31 +51,58 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Buscar en la tienda"
-                                    aria-label="Search" />
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                            </form>
-                        </li>
                     </ul>
-                    <div>
-                        <a href="../pages/login.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                                class="bi bi-person-circle me-3" viewBox="0 0 16 16">
+                    <div class="d-flex align-items-center">
+                        <a href="../pages/login.html" class="text-white me-3"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="30" height="30" fill="currentColor" class="bi bi-person-circle"
+                                viewBox="0 0 16 16">
                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                                 <path fill-rule="evenodd"
                                     d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                             </svg>
                         </a>
-                    </div>
-                    <div>
                         <a href="../pages/error404.html">
-                            <button class="btn btn-primary btn-text-black me-4" type="submit">Descargar</button>
+                            <button class="btn btn-primary me-4" type="submit">Descargar</button>
                         </a>
                     </div>
                 </div>
             </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-top border-secondary">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold text-warning active" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li>
+                                <h6 class="dropdown-header">Explora por Género</h6>
+                            </li>
+                            <li><a class="dropdown-item active" href="index_terror.html">Terror </a></li>
+                            <li><a class="dropdown-item" href="index_rpg.html">RPG </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver Todas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#"> OFERTAS</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"> Novedades</a></li>
+                </ul>
+            </div>
+            <form class="d-flex me-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar en la tienda" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            <a href="../pages/detalleCarrito.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-cart3 me-5" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg>
+            </a>
         </nav>
     </header>
     <main>
