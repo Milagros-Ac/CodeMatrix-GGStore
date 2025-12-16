@@ -90,6 +90,35 @@
   color: #aaaaaa;
 }
 
+.nav-p {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px; /* clave */
+  background-color: #000000;
+}
+
+.nav-2 {
+  position: sticky;
+  top: 100px;
+  background: #222;
+  z-index: 999;
+  transition: top 0.3s ease;
+}
+
+.desc-btn {
+  background-color: pink;
+  border-color: #000000;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.desc-btn:hover {
+  background-color: #000000;
+  border-color: pink;
+  color: pink;
+}
+
 .texto-derechos-autor {
   font-size: 13px;
   margin: 0;
