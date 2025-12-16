@@ -328,6 +328,15 @@ footer.pie-pagina-ecommerce:hover .personajes-footer-hover {
     outline-offset: 2px;
 }
 
+.App-des {
+    background-color: rgb(216, 141, 154);
+    border-color: black;
+}
+
+.App-des:hover {
+    color: black;
+}
+
 @media (max-width: 767px) {
     .card-media-contenido {
         height: 180px;
