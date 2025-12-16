@@ -1,0 +1,8 @@
+.App-des {
+    background-color: rgb(216, 141, 154);
+    border-color: black;
+}
+
+.App-des:hover {
+    color: black;
+}
