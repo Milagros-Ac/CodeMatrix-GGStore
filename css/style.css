@@ -514,3 +514,16 @@ body{
     
   }
 }
+.banner-categoria-aventura {
+ background: linear-gradient(rgba(30, 20, 50, 0.8), rgba(20, 20, 25, 0.9)), 
+  url('../assets/img/palworld.jpg'); 
+ background-size: cover;
+ background-position: center;
+ border-bottom: 3px solid #b39ddb;
+}
+.texto-aventura {
+  color: #d1c4e9;
+  text-shadow: 0 0 15px rgba(179, 157, 219, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
