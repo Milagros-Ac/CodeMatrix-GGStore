@@ -385,3 +385,132 @@ footer.pie-pagina-ecommerce:hover .personajes-footer-hover {
         height: 250px;
     }
 }
+body{
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+.breadcrumb {
+    --bs-breadcrumb-divider: '>';
+    --bs-breadcrumb-divider-color: #ff9aa2; 
+}
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #6c757d;
+}
+.banner-categoria { 
+    background-color: #0d0d0d; 
+}
+.texto-terror { 
+    font-family: "Noto Sans", sans-serif;
+    background-image: url('../assets/img/phasmophobia.jpg'); 
+    background-size: cover;
+    background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animar-fondo 20s linear infinite; 
+}
+@keyframes animar-fondo {
+    to { background-position-x: -500px; }
+}
+.titulo-horror {
+    font-size: 2rem;
+    color: #ff9aa2; 
+    text-shadow: 0 0 5px rgba(255, 154, 162, 0.4);
+}
+.categoriaTerror { 
+    background-color: #2c2c2c; 
+    border: 1px solid #444444; 
+    color: #f0f0f0; 
+}
+.efecto-flotar-tarjeta {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.efecto-flotar-tarjeta:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(255, 154, 162, 0.4); 
+    border-color: #ff9aa2; 
+}
+
+.imagen-tarjeta-horizontal {
+    height: 100%;
+    min-height: 200px;
+    object-fit: cover; 
+}
+.btn-borde-pastel {
+    border-color: #ff9aa2;
+    color: #f0f0f0;
+}
+
+.btn-borde-pastel:hover {
+    background-color: #ebc6d7e0;
+    color: #1a1a1a;
+}
+
+.btn-success-pastel { 
+    background-color: #ff9aa2; 
+    border-color: #ff858d; 
+    color: #1a1a1a; 
+    font-weight: bold;
+}
+
+.btn-success-pastel:hover { 
+    background-color: #ff858d; 
+    box-shadow: 0 0 10px rgba(255, 154, 162, 0.6);
+}
+.contenedor-video-adaptable {
+    position: relative;
+    padding-top: 56.25%; 
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+.contenedor-video-adaptable iframe {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%; border: 0;
+}
+.paginacion-terror .page-link {
+    background-color: #2c2c2c; 
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+.paginacion-terror .page-item.active .page-link {
+    background-color: #ff9aa2;
+    border-color: #ff858d;
+    color: #1a1a1a;
+}
+
+.paginacion-terror .page-item.disabled .page-link {
+    background-color: #1a1a1a;
+    color: #777;
+    border-color: #333;
+}
+.etiqueta-pastel-acento{
+   background-color: #ee3d4cd0;
+}
+.etiqueta-clasico-terror{
+  background-color: #e9c85ed0;
+}
+@media (max-width: 767px) {
+.imagen-tarjeta-horizontal {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.btn-group .btn {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .imagen-tarjeta-horizontal {
+    object-fit: cover;
+    min-height: 250px; 
+    
+  }
+}
