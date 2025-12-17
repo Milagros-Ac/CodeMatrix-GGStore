@@ -543,6 +543,28 @@ body{
   border-color: #d1c4e9;
 }
 .etiqueta-pastel-aventura {
-    background-color: #9575cd !important; 
+    background-color: #9575cd; 
     color: #ffffff;
+}
+.btn-borde-pastel-aventura {
+    border: 1px solid #d1c4e9;
+    color: #d1c4e9;
+    transition: all 0.3s ease;
+}
+
+.btn-borde-pastel-aventura:hover {
+    background-color: #d1c4e9;
+    color: #2a2438;
+}
+
+.btn-success-pastel-aventura {
+    background-color: #b39ddb;
+    border: none;
+    color: #1e1a29;
+    font-weight: bold;
+}
+
+.btn-success-pastel-aventura:hover {
+    background-color: #d1c4e9;
+    filter: brightness(1.1);
 }
