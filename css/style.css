@@ -391,11 +391,11 @@ body{
 }
 .breadcrumb {
     --bs-breadcrumb-divider: '>';
-    --bs-breadcrumb-divider-color: #ff9aa2; 
+    --bs-breadcrumb-divider-color: #facafa; 
 }
 .breadcrumb-item a {
     text-decoration: none;
-    color: #6c757d;
+    color: #ffffff;
 }
 .banner-categoria { 
     background-color: #0d0d0d; 
@@ -513,4 +513,113 @@ body{
     min-height: 250px; 
     
   }
+}
+@keyframes zoomLentoBanner {
+  0% {
+    background-size: 100%; 
+  }
+  100% {
+    background-size: 115%;
+  }
+}
+.banner-categoria-aventura {
+ background: linear-gradient(
+    rgba(0, 0, 0, 0.123), 
+    rgba(20, 20, 25, 0.534)),
+    url('../assets/img/bannerAventura.jpg');
+  background-size: cover;
+  background-position: 35%;
+  min-height: 83vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #b39ddb;
+  box-shadow: inset 0 -50px 50px -20px rgba(0, 0, 0, 0.329);
+  animation: zoomLentoBanner 20s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+.texto-aventura {
+  color: #d1c4e9;
+  text-shadow: 0 0 15px rgba(179, 157, 219, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.titulo-aventura {
+  color: #b39ddb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.categoriaAventura {
+  background-color: #2c2c2c; 
+  border: 1px solid #453c5c;
+  transition: all 0.3s ease;
+}
+.efecto-flotar-tarjeta-aventura:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(179, 157, 219, 0.3);
+  border-color: #d1c4e9;
+}
+.etiqueta-pastel-aventura {
+  background-color: #9575cd; 
+  color: #ffffff;
+}
+.btn-borde-pastel-aventura {
+  border: 1px solid #d1c4e9;
+  color: #d1c4e9;
+  transition: all 0.3s ease;
+}
+
+.btn-borde-pastel-aventura:hover {
+  background-color: #d1c4e9;
+  color: #2a2438;
+}
+
+.btn-success-pastel-aventura {
+  background-color: #b39ddb;
+  border: none;
+  color: #1e1a29;
+  font-weight: bold;
+}
+
+.btn-success-pastel-aventura:hover {
+  background-color: #d1c4e9;
+  filter: brightness(1.1);
+}
+.paginacion-aventura .page-link {
+  background-color: #2a2438;
+  border-color: #453c5c;
+  color: #d1c4e9;
+}
+
+.paginacion-aventura .page-item.active .page-link {
+  background-color: #9575cd;
+  border-color: #d1c4e9;
+}
+.contenedor-video-adaptable {
+  border: 4px solid #352f44;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.banner-categoria-aventura h1 {
+  background: linear-gradient(to bottom, #ffffff 30%, #b39ddb 100%);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.8));
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.banner-categoria-aventura .texto-aventura {
+  animation: slideUp 1.2s ease-out forwards;
 }
