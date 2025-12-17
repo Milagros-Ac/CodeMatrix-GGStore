@@ -400,17 +400,39 @@ body{
 .banner-categoria { 
     background-color: #0d0d0d; 
 }
-.texto-terror { 
-    font-family: "Noto Sans", sans-serif;
-    background-image: url('../assets/img/phasmophobia.jpg'); 
-    background-size: cover;
-    background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: animar-fondo 20s linear infinite; 
+.banner-categoria-terror {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(26, 26, 26, 0.8)),
+      url('../assets/img/bannerTerror.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 83vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #ff9aa2;
+  box-shadow: inset 0 -50px 50px -20px rgba(0, 0, 0, 0.6);
+  animation: zoomLentoBanner 20s ease-in-out infinite alternate;
+  overflow: hidden;
 }
-@keyframes animar-fondo {
-    to { background-position-x: -500px; }
+.banner-categoria-terror h1 {
+  background: linear-gradient(to bottom, #ffffff 30%, #ff9aa2 100%);
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.9));
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.banner-categoria-terror .texto-terror {
+  color: #9e313a;
+  text-shadow: 0 0 15px rgba(184, 74, 83, 0.5);
+  letter-spacing: 2px;
 }
 .titulo-horror {
     font-size: 2rem;
@@ -430,7 +452,30 @@ body{
     box-shadow: 0 8px 15px rgba(255, 154, 162, 0.4); 
     border-color: #ff9aa2; 
 }
-
+.categoriaTerror {
+  background-color: #2c2c2c; 
+  border: 1px solid #444444;
+  transition: all 0.3s ease;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 
+      0 0 4px #ee6868,
+      0 0 11px #f7bbbb,
+      0 0 19px #ff9aa2,
+      0 0 40px #ff9aa2,
+      0 0 80px #ff9aa2;
+    opacity: 1;
+  }
+  20%, 24%, 55% {        
+    text-shadow: none;
+    opacity: 0.5;
+  }
+}
+.efecto-flicker {
+  animation: flicker 3s infinite alternate;
+  color: #ff9aa2;
+}
 .imagen-tarjeta-horizontal {
     height: 100%;
     min-height: 200px;
@@ -486,9 +531,6 @@ body{
 }
 .etiqueta-pastel-acento{
    background-color: #ee3d4cd0;
-}
-.etiqueta-clasico-terror{
-  background-color: #e9c85ed0;
 }
 @media (max-width: 767px) {
 .imagen-tarjeta-horizontal {
