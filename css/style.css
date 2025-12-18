@@ -859,3 +859,22 @@ body{
   border-radius: 8px;
   border: 1px solid #439ce6;
 }
+.btn-gradient-custom {
+    background: linear-gradient(to right, #8f3173c0, #fa80e6c9);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; 
+}
+
+.btn-gradient-custom:hover {
+    filter: brightness(1.1); 
+    color: white;
+    transform: translateY(-1px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+.btn-gradient-custom:active {
+    transform: translateY(0);
+    filter: brightness(0.9);
+}
