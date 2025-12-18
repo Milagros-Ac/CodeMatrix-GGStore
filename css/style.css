@@ -122,6 +122,13 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+.btn-bus:hover {
+  background-color: black;
+  color: rgb(180, 17, 58);
+  border-color: rgb(180, 17, 58);
+  border: 1px solid rgb(180, 17, 58);
+}
+
 .nav-p {
   position: sticky;
   top: 0;
