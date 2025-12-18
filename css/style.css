@@ -137,16 +137,17 @@
 .nav-p {
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10000000;
   height: 60px;
   background-color: #000000;
+  color: #000000;
 }
 
 .nav-2 {
   position: sticky;
   top: 100px;
   background: #222;
-  z-index: 999;
+  z-index: 999000000000000000000;
   transition: top 0.3s ease;
   background-color: black;
 }
@@ -708,4 +709,147 @@ body{
 
 .banner-categoria-aventura .texto-aventura {
   animation: slideUp 1.2s ease-out forwards;
+}
+.galeria-grid .col {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.img-grid {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border: 2px solid rgba(179, 209, 255, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: block;
+}
+.img-grid:hover {
+  transform: scale(1.1); 
+  border-color: #439ce6; 
+  filter: brightness(1.2);
+  z-index: 10;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .row-cols-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+  .img-grid {
+    height: 120px; 
+  }
+}
+.area-titulo-producto h1 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: white; 
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.barra-lateral-compra {
+  background-color: #171d24;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.puntuacion-resena-extrema { 
+  color: #bae1ff;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(107, 161, 202, 0.4);
+}
+.modulo-caja-compra {
+  background: linear-gradient(145deg, #0d131a, #1a222d);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  border: 1px solid #324660;
+}
+
+.etiqueta-precio-actual {
+  font-size: 2.5rem;
+  color: #ddecf8;
+  font-weight: 900;
+  display: block;
+}
+
+.btn-comprar-ahora {
+  background-color: #5452f5da;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.btn-comprar-ahora:hover {
+  background-color: #8fb3e3;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(110, 131, 228, 0.3);
+  color: #000;
+}
+.tabla-idiomas {
+  color: #c7d5e0;
+  border: 1px solid rgba(255, 179, 186, 0.2);
+}
+        
+.tabla-idiomas thead th {
+  background-color: #4d68dd;
+  color: #fffdfd;
+  border: none;}
+
+.tarjeta-comentario {
+  background-color: rgba(0,0,0,0.2);
+  border-left: 4px solid #439ce6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0 8px 8px 0;
+}
+.tabla-requisitos td {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.icono-logro {
+  width: 45px;
+  height: 45px;
+  background-color: #324660;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bae1ff;
+}
+        
+
+@media (min-width: 992px) {
+  .sticky-sidebar {
+    position: sticky;
+    top: 20px;
+  }
+}
+.logro-item-vertical {
+  background-color: rgba(255, 255, 255, 0.02);
+  transition: all 0.3s ease;
+}
+
+.logro-item-vertical:hover {
+  background-color: rgba(67, 156, 230, 0.1);
+  transform: translateX(5px);
+}
+
+.icono-logro {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #439ce6;
 }
