@@ -16,11 +16,11 @@
   box-shadow: #fdfd96 0px 0px 15px;
 }
 
-.img-404 {
-  width: 20px;
-  height: 30px;
-  padding-left: 500px;
+.main-404 {
+  min-height: 100vh;
+  display: flex;
   justify-content: center;
+  align-items: center; 
 }
 
 @media (max-width: 767px) {
