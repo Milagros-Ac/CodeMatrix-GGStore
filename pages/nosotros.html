@@ -80,8 +80,7 @@
                             <li>
                                 <h6 class="dropdown-header">Explora por Género</h6>
                             </li>
-                            <li><a class="dropdown-item active" href="../pages/detalleCategoriaTerror.html">Terror </a>
-                            </li>
+                            <li><a class="dropdown-item active" href="../pages/detalleCategoriaTerror.html">Terror </a></li>
                             <li><a class="dropdown-item" href="../pages/detalleCategoriaRPG.html">RPG </a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -89,10 +88,8 @@
                             <li><a class="dropdown-item" href="#">Ver Todas</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link text-warning" href="../pages/error404.html"> OFERTAS</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link text-white" href="../pages/error404.html"> Novedades</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="../pages/error404.html"> OFERTAS</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../pages/error404.html"> Novedades</a></li>
                 </ul>
             </div>
             <form class="d-flex me-3" role="search">
@@ -103,7 +100,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-cart3 me-5" viewBox="0 0 16 16">
                     <path
-                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                 </svg>
             </a>
         </nav>
@@ -121,16 +118,21 @@
                 Elija su perfil
             </p>
         </div>
-        <div class="perfiles">
-            <div class="perfil">
-                <img src="../assets/img/Mati-S.jpg" alt="Matias Salinas" class="jugadores">
-                <p>Jugador 1</p>
-            </div>
+        <div class="container text-center mt-4">
+            <div class="row justify-content-center g-4">
+                <div class="col-6 col-sm-12 col-md-12 col-lg-5 me-1">
+                    <img src="../assets/img/Mati-S.jpg" alt="Matias Salinas" class="rounded-circle img-fluid jugadores"
+                        data-bs-toggle="modal" data-bs-target="#modal1">
+                    <p class="fw-bold mt-4">Jugador 1</p>
+                </div>
 
-            <div class="perfil">
-                <img src="../assets/img/Mili-A.jpg" alt="Milagros Acuña" class="jugadores">
-                <p>Jugador 2</p>
+                <div class="col-6 col-sm-12 col-md-12 col-lg-5 ms-1">
+                    <img src="../assets/img/Mili-A.jpg" alt="Milagros Acuña" class="rounded-circle img-fluid jugadores"
+                        data-bs-toggle="modal" data-bs-target="#modal2">
+                    <p class="fw-bold mt-4">Jugador 2</p>
+                </div>
             </div>
+        </div>
         </div>
         <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
