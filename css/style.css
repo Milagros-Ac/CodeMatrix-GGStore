@@ -3,9 +3,13 @@
     color: black;
 }
 
+.main-us {
+  
+}
+
 .jugadores {
   width: 400px;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
   transition: transform 0.3s;
   cursor: pointer;
@@ -14,6 +18,13 @@
 .jugadores:hover {
   transform: scale(1.1);
   box-shadow: #fdfd96 0px 0px 15px;
+}
+
+@media (max-width: 767px) {
+  .jugadores {
+    width: 400px;
+    height: 370px;
+  }
 }
 
 .main-404 {
@@ -49,12 +60,6 @@
   border-color: #5f6eec;
 }
 
-@media (max-width: 767px) {
-  .team-member {
-    width: 150px;
-    margin-bottom: 20px;
-  }
-}
 .pie-pagina-ecommerce {
   background-color: #1a1a1a; 
   color: #ffffff; 
