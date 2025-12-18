@@ -132,16 +132,17 @@
 .nav-p {
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10000000;
   height: 60px;
   background-color: #000000;
+  color: #000000;
 }
 
 .nav-2 {
   position: sticky;
   top: 100px;
   background: #222;
-  z-index: 999;
+  z-index: 999000000000000000000;
   transition: top 0.3s ease;
   background-color: black;
 }
