@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de juegos digitales para PC con ofertas y lanzamientos.">
+    <meta name="keywords"content="videojuegos, juegos digitales, comprar juegos, tienda de juegos, PC gaming, juegos online, plataforma de juegos">
+    <meta name="author" content="Milagros Acuña,Matias Salinas,Luca Zanetti ,Ignacio Guanca">
+    <link rel="shortcut icon" href="../assets/img/GG-Portada.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/796460bae3.js"></script>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>GG Store</title>
+</head>
+<body>
+<header class="bg-dark"> <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/GG-Portada.png" alt="Portada GG Store" width="50" height="45" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../pages/nosotros.html">ACERCA DE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">SOPORTE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            COMUNIDAD
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
+                            <li><a class="dropdown-item" href="https://twitter.com/" target="_blank">X</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/" target="_blank">YOUTUBE</a></li>
+                            <li><a class="dropdown-item" href="https://discord.com/" target="_blank">DISCORD</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <div class="d-flex align-items-center">
+                    
+                    <form class="d-flex me-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar en la tienda"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                    
+                    <a href="../pages/login.html" class="text-white me-3"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg>
+                    </a>
+                    
+                    <a href="../pages/error404.html">
+                        <button class="btn btn-primary me-4" type="submit">Descargar</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-top border-secondary"> <div class="container-fluid"> 
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold active " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                        Categorías 
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><h6 class="dropdown-header">Explora por Género</h6></li>
+                        <li><a class="dropdown-item active" href="./detalleCategoriaTerror.html">Terror </a></li>
+                        <li><a class="dropdown-item" href="./detalleCategoriaRPG.html">RPG </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="../index.html">Ver Todas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-white" href="../index.html"> Ofertas</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="../index.html"> Novedades</a></li> </ul>
+        </div>
+    </nav>
+           
+</header>
+<main>
+<main class="container py-5">
+    <div class="area-titulo-producto">
+        <h1>Mimesis</h1>
+    </div>
+
+    <div class="row g-4">
+        
+        <section class="col-lg-7">
+            
+            <div class="banner-promo mb-4">
+                <img src="../assets/img/TheGameAwards.jpg" alt="Banner" class="img-fluid rounded shadow w-100">
+            </div>
+
+            <div class="ratio ratio-16x9 mb-5 shadow-lg rounded overflow-hidden border border-secondary">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/2NsWAMMdBzk?si=qEnW8IEkYFZnFZev" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <article class="descripcion-larga-producto mb-5">
+                <h2 class="text-white border-bottom border-info pb-2 mb-4">Acerca de este Juego</h2>
+                <h4 class="text-info">EXPLORA, SOBREVIVE, DESCONFÍA</h4>
+                <p>La experiencia oscila entre el frío silencio de los pasillos de la nave y el caos absoluto cuando los Intrusos emergen de las sombras. Repara los sistemas críticos, gestiona los incendios y comprueba el estado de los motores antes de que la nave salte al hiperespacio... pero ten cuidado: mientras intentas salvar el pellejo, tus compañeros podrían tener planes muy distintos para ti.</p>
+                
+                <ul class="mt-4">
+                    <li class="list-group-item bg-transparent text-light border-secondary"><i class="fas fa-check-circle text-info me-2"></i> Supervivencia extrema en un entorno con salas y eventos aleatorios.</li>
+                    <li class="list-group-item bg-transparent text-light border-secondary"><i class="fas fa-check-circle text-info me-2"></i> Colabora para sobrevivir, pero vigila tu espalda; la traición es una carta que siempre está sobre la mesa.</li>
+                </ul>
+            </article>
+
+            <section class="seccion-galeria-imagenes mb-5">
+                <h2 class="text-white mb-4">
+                </h2>
+                
+                <div class="row row-cols-2 row-cols-md-3 g-3 galeria-grid">
+                    <div class="col"><img src="../assets/img/imgmimesis7.jpg" alt="Captura 1" class="img-grid"></div>
+                    <div class="col"><img src="../assets/img/imgMimesis2.jpg" alt="Captura 2" class="img-grid"></div>
+                    <div class="col"><img src="../assets/img/imgMimesis3.jpg" alt="Captura 3" class="img-grid"></div>
+                    <div class="col"><img src="../assets/img/imgMimesis4.jpg" alt="Captura 4" class="img-grid"></div>
+                    <div class="col"><img src="../assets/img/imgMimesis5.jpg" alt="Captura 5" class="img-grid"></div>
+                    <div class="col"><img src="../assets/img/imgMimesis6.jpg" alt="Captura 6" class="img-grid"></div>
+                </div>
+            </section>
+
+        </section>
+        
+        <aside class="col-lg-4 offset-lg-1">
+            <div class="sticky-sidebar">
+                <div class="barra-lateral-compra">
+                    <p class="text-secondary italic mb-3">Juego de terror de supervivencia cooperativo para 4 jugadores. Cuando cae la lluvia maldita, aparece 'Mimesis', imitando perfectamente a tus compañeros, aportando un nuevo nivel de tensión que nunca antes habías experimentado.</p>
+
+                    <div class="metadatos-juego small">
+                        <p class="mb-1"><strong>RESEÑAS:</strong> <span class="puntuacion-resena-extrema">Muy positivas</span></p>
+                        <p class="mb-1"><strong>FECHA:</strong> 22 OCT 2025</p>
+                        <p class="mb-3"><strong>DESARROLLADOR:</strong> <span class="text-info">ReLU Games,Inc,KRAFTON,Inc.</span></p>
+                    </div>
+
+                    <div class="modulo-caja-compra text-center">
+                        <span class="small text-white">Precio Base</span>
+                        <span class="etiqueta-precio-actual">$19.99 USD</span>
+                        <a href="#" class="btn-comprar-ahora mt-3">
+                            <i class="fas fa-shopping-cart me-2"></i> Añadir al Carrito
+                        </a>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h6 class="text-white text-uppercase small fw-bold mb-3">Características</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><i class="fas fa-users me-2" style="color:#439ce6;"></i> JCJ en línea</li>
+                            <li class="mb-2"><i class="fas fa-handshake me-2" style="color:#439ce6;"></i> Cooperativo en línea</li>
+                            <li class="mb-2"><i class="fas fa-trophy me-2" style="color:#439ce6;"></i> Logros de Steam</li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-4">
+                        <h6 class="text-white text-uppercase small fw-bold mb-2">Idiomas</h6>
+                        <table class="table table-sm tabla-idiomas small">
+                            <thead>
+                                <tr>
+                                    <th>Idioma</th>
+                                    <th>Int.</th>
+                                    <th>Voz</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Español</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <td>Inglés</td>
+                                    <td>✔</td>
+                                    <td>✔</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+        <article class="descripcion-larga-producto mb-5">
+            <h4 class="text-info">UNA NAVE EN CONSTANTE PELIGRO</h4>
+            <p>Explora las diferentes secciones de la Nemesis, desde el puente de mando hasta las oscuras salas de motores, donde cada rincón puede albergar un nido de Intrusos. Cada zona de la nave arrastra las cicatrices de una infestación biológica que amenaza con consumirlo todo. Investiga los puntos débiles de tus enemigos y recupera objetos clave para asegurar tu supervivencia en un entorno donde el aire se agota. El diseño modular de la nave hará que cada partida sea distinta a la anterior, puesto que los fallos técnicos, los incendios y la evolución de los especímenes aportarán una imprevisibilidad mortal.</p>
+        </article>
+
+        <article class="descripcion-larga-producto mb-5">
+            <h4 class="text-info">CUMPLE TU PROPIO OBJETIVO</h4>
+            <p>En un entorno dominado por la paranoia y la urgencia, deberás luchar para cumplir tu misión antes de que sea demasiado tarde. Podrás utilizar los laboratorios para analizar restos biológicos o fabricar herramientas improvisadas que te permitan enfrentar peligros cada vez mayores. Tus encuentros con los Intrusos y tus hallazgos científicos te proporcionarán conocimientos con los que podrás desbloquear habilidades únicas para tu rol. Además, deberás decidir si seguir las órdenes de la corporación o colaborar con los demás supervivientes, descubriendo que en el espacio, la camaradería es un lujo que pocos pueden permitirse cuando la autodestrucción está activada.</p>
+        </article>
+        <section class="row mt-5">
+            <div class="col-12">
+                <h2 class="text-white border-bottom border-info pb-2 mb-4">Ciclo de Vida del Intruso</h2>
+                <p class="text-light mb-4">La amenaza biológica en la Nemesis no es estática. Los especímenes evolucionan rápidamente, volviéndose más letales con cada encuentro.</p>
+        
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="p-3 border border-secondary rounded h-100" style="background-color: rgba(255, 255, 255, 0.05);">
+                            <h5 class="text-info">Larvas</h5>
+                            <p class="small text-light">Pequeñas pero mortales. Su objetivo no es matarte de inmediato, sino infectar tu cuerpo para asegurar la siguiente generación. Una infección no tratada es una sentencia de muerte.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="p-3 border border-secondary rounded h-100" style="background-color: rgba(255, 255, 255, 0.05);">
+                            <h5 class="text-info">Acechadores</h5>
+                            <p class="small text-light">Rápidos y letales. Se desplazan por los conductos de ventilación y aparecen cuando menos lo esperas. Son cazadores natos que aprovechan cualquier descuido en el ruido que generas.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="p-3 border border-info rounded h-100" style="background-color: rgba(13, 202, 240, 0.1);">
+                            <h5 class="text-info">La Reina</h5>
+                            <p class="small text-light">El ápice de la infestación. Su sola presencia en una sala bloquea cualquier vía de escape fácil. Protege el nido con ferocidad y es capaz de resistir ráfagas enteras de munición.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="mt-4 p-3 bg-dark border-start border-danger border-4">
+                    <p class="mb-0 text-white small"><strong>Aviso de la Corporación:</strong> El descubrimiento de un nido debe ser reportado inmediatamente. No intentes destruir la cámara de huevos sin el equipo de protección adecuado.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <h4 class="text-white border-bottom border-secondary pb-2 mb-4">Requisitos del Sistema</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="text-info">Mínimos</h6>
+                        <table class="w-100 small tabla-requisitos">
+                            <tr><td class="text-secondary">SO:</td><td>Windows 10 64-bit</td></tr>
+                            <tr><td class="text-secondary">CPU:</td><td>Intel Core i5-4690 / AMD Ryzen 3 1200</td></tr>
+                            <tr><td class="text-secondary">RAM:</td><td>8 GB RAM</td></tr>
+                            <tr><td class="text-secondary">GPU:</td><td>NVIDIA GTX 760 / AMD Radeon R9 280</td></tr>
+                            <tr><td class="text-secondary">DirectX:</td><td>Versión 11</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-info">Recomendados</h6>
+                        <table class="w-100 small tabla-requisitos">
+                            <tr><td class="text-secondary">SO:</td><td>Windows 11 64-bit</td></tr>
+                            <tr><td class="text-secondary">CPU:</td><td>Intel Core i7-7700K / AMD Ryzen 5 2600X</td></tr>
+                            <tr><td class="text-secondary">RAM:</td><td>16 GB RAM</td></tr>
+                            <tr><td class="text-secondary">GPU:</td><td>NVIDIA RTX 2060 / AMD Radeon RX 5700</td></tr>
+                            <tr><td class="text-secondary">Espacio:</td><td>10 GB disponibles</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="mb-5 p-4 rounded-4" style=" border: 1px solid rgba(255, 255, 255, 0.1);">
+    <h4 class="text-white mb-4"><i class="text-warning me-2"></i> Logros Recientes</h4>
+    
+    <div class="lista-logros">
+        <div class="d-flex align-items-center mb-3 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi1.jpg" class="icono-logro me-3" alt="Logro 1">
+            <div>
+                <h6 class="mb-0 text-white">Despertar</h6>
+                <small class="text-secondary">Lleva el nivel del personaje a 10.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">61.9%</div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi2.jpg" class="icono-logro me-3" alt="Logro 2">
+            <div>
+                <h6 class="mb-0 text-white">Nadie se queda atrás</h6>
+                <small class="text-secondary">Rescata a alguien después de que se haya abierto al menos una puerta en una partida pública.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">15.4%</div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi3.jpg" class="icono-logro me-3" alt="Logro 3">
+            <div>
+                <h6 class="mb-0 text-white">Escape perfecto</h6>
+                <small class="text-secondary">Alcanza el nivel de prestigio II con cualquier personaje.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">5.2%</div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi4.jpg" class="icono-logro me-3" alt="Logro 4">
+            <div>
+                <h6 class="mb-0 text-white">Ingeniero</h6>
+                <small class="text-secondary">Repara 50 generadores dañados diferentes en partidas públicas. Una vez por generador.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">25.1%</div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi5.jpg" class="icono-logro me-3" alt="Logro 5">
+            <div>
+                <h6 class="mb-0 text-white">Todos a bordo</h6>
+                <small class="text-secondary">Activa la sirena reparando el generador del barco de vapor y escapa en una partida pública.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">3.5%</div>
+        </div>
+
+        <div class="d-flex align-items-center mb-0 p-2 rounded logro-item-vertical">
+            <img src="../assets/img/logromimesi6.jpg" class="icono-logro me-3" alt="Logro 6">
+            <div>
+                <h6 class="mb-0 text-white">Más rápido que el mal</h6>
+                <small class="text-secondary">Escápate a rastras por la trampilla en una partida pública.</small>
+            </div>
+            <div class="ms-auto text-info small fw-bold">0.8%</div>
+        </div>
+    </div>
+</section>
+        
+<section class="row mt-5">
+    <div class="col-12">
+        <h2 class="text-white border-bottom pb-2 mb-4">Reseñas de la Tripulación</h2>
+        
+        <article class="tarjeta-comentario mb-4">
+            <div class="d-flex justify-content-between align-items-start">
+                <p class="mb-1 text-white fw-bold">
+                    <i class="fas fa-thumbs-up text-info me-2"></i> "Terror claustrofóbico puro"
+                </p>
+            </div>
+            <p class="mb-1 mt-2">La sensación de cruzar un pasillo a oscuras y escuchar un ruido en los conductos es aterradora. El diseño de los Intrusos te mantiene en tensión constante; nunca sabes si al abrir la escotilla estarás a salvo o frente a una Reina.</p>
+            <div class="small text-secondary mt-2">— Pilot_Vega | 150h jugadas</div>
+        </article>
+
+        <article class="tarjeta-comentario mb-4">
+            <div class="d-flex justify-content-between align-items-start">
+                <p class="mb-1 text-white fw-bold">
+                    <i class="fas fa-thumbs-up text-info me-2"></i> "No confíes en nadie"
+                </p>
+            </div>
+            <p class="mb-1 mt-2">No es solo sobrevivir a los alienígenas. O vigilas a tus compañeros o el Científico te encerrará en una sala con fuego para cumplir su objetivo corporativo. Las mecánicas de traición y los fallos en los motores se sienten reales y pesados.</p>
+            <div class="small text-secondary mt-2">— Survivor_Ivan | 120h en hibernación</div>
+        </article>
+
+        <article class="tarjeta-comentario mb-4">
+            <div class="d-flex justify-content-between align-items-start">
+                <p class="mb-1 text-white fw-bold">
+                    <i class="fas fa-thumbs-up text-info me-2"></i> "Adrenalina hasta el último turno"
+                </p>
+            </div>
+            <p class="mb-1 mt-2">Arriesgarse a buscar un punto débil en el laboratorio mientras la nave se cae a pedazos es pura adrenalina. Ver cómo la Nemesis explota mientras logras escapar en la cápsula de salvamento es la mejor recompensa visual y narrativa.</p>
+            <div class="small text-secondary mt-2">— Captain_Rex | 300h jugadas</div>
+        </article>
+
+        <article class="tarjeta-comentario mb-4" style="border-left-color: #439ce6; background-color: rgba(180, 179, 255, 0.05);">
+            <div class="d-flex justify-content-between align-items-start">
+                <p class="mb-1 fw-bold" style="color: #439ce6;">
+                    <i class="fas fa-thumbs-down me-2"></i> "Demasiado azar en el combate"
+                </p>
+            </div>
+            <p class="mb-1 mt-2">El juego es increíble, pero la suerte con los dados y las cartas de contaminación puede arruinar una partida perfecta de 3 horas en un segundo. Me infectaron al primer turno y morí sin poder hacer nada. Necesita un poco más de equilibrio para el modo solitario.</p>
+            <div class="small text-secondary mt-2">— Salty_Android | 5 partidas jugadas</div>
+        </article>
+
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-info btn-sm">Leer más reseñas</a>
+        </div>
+    </div>
+</section>
+</main>
+    <footer class="pie-pagina-ecommerce">
+        <div class="personajes-footer-hover mb-4">
+            <img src="../assets/img/footerImg1.png" alt="cattiva de palworls animacion footer">
+            <img src="../assets/img/footerImg2.png" alt="depresso animacion footer">
+            <img src="../assets/img/footerImg3.png" alt="cuphead animacion footer">
+            <img src="../assets/img/footerImg4.png" alt="fall guys animacion astronauta">
+            <img src="../assets/img/footerImg5.png" alt="fall guys animacion papas">
+        </div>
+
+        <div class="container-fluid py-4">
+            <div class="row contenedor-columnas-pie justify-content-center">
+                <div class="col-12 col-md-5 col-lg-2 columna-pie columna-pie-identidad">
+                    <div class="logo-pie">
+                        <img src="../assets/img/GG-Portada.png" alt="Logo de la Tienda de Videojuegos"
+                            class="img-fluid">
+                    </div>
+                    <p class="eslogan">Tu universo de juegos digitales.</p>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-2 columna-pie">
+                    <h3 class="mb-3">LA TIENDA</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="./error404.html" target="_blank">Explorar Catálogo</a></li>
+                        <li><a href="./error404.html" target="_blank">Juegos Gratis</a></li>
+                        <li><a href="./error404.html" target="_blank">Próximos Lanzamientos</a></li>
+                        <li><a href="./login.html" target="_blank">Mi Cuenta</a></li>
+                        <li><a href="./error404.html" target="_blank">Comprar Tarjetas de Regalo</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 columna-pie">
+                    <h3 class="mb-3">SOPORTE Y LEGAL</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="./contacto.html" target="_blank">Contacto y FAQ</a></li>
+                        <li><a href="./error404.html"target="_blank">Devoluciones</a></li>
+                        <li><a href="./error404.html"target="_blank">Términos de Servicio</a></li>
+                        <li><a href="./error404.html" target="_blank">Política de Privacidad</a></li>
+                        <li><a href="./error404.html" target="_blank">Configuración de Cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-2 columna-pie">
+                    <h3 class="mb-3">COMUNIDAD</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="./error404.html " target="_blank">Blog de Noticias</a></li>
+                        <li><a href="./error404.html" target="_blank">Foro/Discord</a></li>
+                        <li><a href="./error404.html"target="_blank">Streamers Patrocinados</a></li>
+                        <li><a href="./error404.html" target="_blank">Concursos y Eventos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-2 columna-pie columna-pie-social">
+                    <h3 class="mb-3">SÍGUENOS</h3>
+                    <div class="iconos-sociales">
+                        <a href="https://www.facebook.com/RollingCodeSchool?locale=es_LA"
+                            target="_blank" aria-label="Síguenos en Facebook"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+                        <a href="https://x.com/?lang=es" target="_blank" aria-label="Síguenos en X"><i
+                                class="fa-brands fa-x-twitter fa-2x"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="Suscríbete en YouTube"><i
+                                class="fa-brands fa-youtube fa-2x"></i></a>
+                        <a href="https://www.instagram.com/rollingcodeschool?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                           target="_blank" aria-label="Síguenos en Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://www.tiktok.com/"target="_blank" aria-label="Síguenos en TikTok"><i
+                                class="fa-brands fa-tiktok fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="separador-pie my-3">
+
+        <div class="container-fluid pb-3">
+            <div class="row barra-inferior-pie text-center">
+
+                <div class="col-12">
+                    <div class="metodos-pago mb-3">
+                        <span class="d-block mb-2 fw-bold">Métodos de Pago:</span>
+                        <i class="fa-brands fa-cc-visa fa-2x" title="Visa"></i>
+                        <i class="fa-brands fa-cc-mastercard fa-2x" title="Mastercard"></i>
+                        <i class="fa-brands fa-cc-paypal fa-2x" title="PayPal"></i>
+                        <i class="fa-brands fa-cc-amex fa-2x" title="American Express"></i>
+                        <i class="fa-brands fa-bitcoin fa-2x" title="Bitcoin / Crypto"></i>
+                        <i class="fa-solid fa-credit-card fa-2x" title="Todas las tarjetas"></i>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <p class="texto-derechos-autor">
+                        © 2025 CodeMatrix-GGStore. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
