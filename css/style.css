@@ -36,6 +36,13 @@
   display: block;
 }
 
+.boton-404 {
+  display: block;
+  margin-top: 20px;
+  color: black;
+  background-color: #5f6eec;
+}
+
 @media (max-width: 767px) {
   .team-member {
     width: 150px;
