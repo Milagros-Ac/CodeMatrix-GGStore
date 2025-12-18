@@ -5,7 +5,7 @@
 
 .jugadores {
   width: 400px;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
   transition: transform 0.3s;
   cursor: pointer;
@@ -18,8 +18,8 @@
 
 @media (max-width: 767px) {
   .jugadores {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 370px;
   }
 }
 
