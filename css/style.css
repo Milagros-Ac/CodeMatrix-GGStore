@@ -116,6 +116,12 @@
   color: #aaaaaa;
 }
 
+.btn-bus {
+  background-color: rgb(180, 17, 58);
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 .nav-p {
   position: sticky;
   top: 0;
