@@ -3,10 +3,6 @@
     color: black;
 }
 
-.main-us {
-  background-color: black;
-}
-
 .jugadores {
   width: 400px;
   height: 600px;
@@ -64,6 +60,16 @@
   background-color: #1a1a1a; 
   color: #ffffff; 
   font-family: Arial, sans-serif; 
+}
+
+.map-con {
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .pie-pagina-ecommerce a {
@@ -137,7 +143,7 @@
 .nav-p {
   position: sticky;
   top: 0;
-  z-index: 10000000;
+  z-index: 10000000000000000;
   height: 60px;
   background-color: #000000;
   color: #000000;
@@ -147,7 +153,7 @@
   position: sticky;
   top: 100px;
   background: #222;
-  z-index: 999000000000000000000;
+  z-index: 100000;
   transition: top 0.3s ease;
   background-color: black;
 }
